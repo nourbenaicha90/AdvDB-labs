@@ -1,0 +1,21 @@
+[
+    {
+      "table_name": "Employee",
+      "file_name" : "employee.bin",
+      "fields": [
+        {"name": "id", "type": "int"},
+        {"name": "name", "type": "char(20)"},
+        {"name": "salary", "type": "float"}
+      ]
+    },
+    {
+      "table_name": "Dept",
+      "file_name" : "dept.bin",
+      "fields": [
+        {"name": "id", "type": "int"},
+        {"name": "name", "type": "char(20)"},
+        {"name": "Location", "type": "varchar(40)"}
+      ]
+    }
+  ]
+  
